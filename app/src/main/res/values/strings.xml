@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">XoGame</string>
+    <string name="reset">Reset</string>
+    <string name="text">XO Game</string>
 </resources>

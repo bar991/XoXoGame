@@ -61,6 +61,16 @@ public class MainActivity extends AppCompatActivity {
                 Button button7=findViewById(R.id.btn7);
                 Button button8=findViewById(R.id.btn8);
                 Button button9=findViewById(R.id.btn9);
+                button1.setEnabled(true);
+
+                button2.setEnabled(true);
+                button3.setEnabled(true);
+                button4.setEnabled(true);
+                button5.setEnabled(true);
+                button6.setEnabled(true);
+                button7.setEnabled(true);
+                button8.setEnabled(true);
+                button9.setEnabled(true);
                 button1.setEnabled(false);
                 button2.setEnabled(false);
                 button3.setEnabled(false);
@@ -70,7 +80,10 @@ public class MainActivity extends AppCompatActivity {
                 button7.setEnabled(false);
                 button8.setEnabled(false);
                 button9.setEnabled(false);
+
                 displayWinner("player1");
+
+
             }
 
         }
@@ -102,7 +115,9 @@ public class MainActivity extends AppCompatActivity {
             player2.add(cellNo1);
             if (isGameOver(player2)) {
 
-               Button button1=findViewById(R.id.btn1);
+
+
+                Button button1=findViewById(R.id.btn1);
                 Button button2=findViewById(R.id.btn2);
                 Button button3=findViewById(R.id.btn3);
                 Button button4=findViewById(R.id.btn4);
@@ -111,7 +126,18 @@ public class MainActivity extends AppCompatActivity {
                 Button button7=findViewById(R.id.btn7);
                 Button button8=findViewById(R.id.btn8);
                 Button button9=findViewById(R.id.btn9);
+                button1.setEnabled(true);
+
+                button2.setEnabled(true);
+                button3.setEnabled(true);
+                button4.setEnabled(true);
+                button5.setEnabled(true);
+                button6.setEnabled(true);
+                button7.setEnabled(true);
+                button8.setEnabled(true);
+                button9.setEnabled(true);
                 button1.setEnabled(false);
+
                 button2.setEnabled(false);
                 button3.setEnabled(false);
                 button4.setEnabled(false);
@@ -120,7 +146,10 @@ public class MainActivity extends AppCompatActivity {
                 button7.setEnabled(false);
                 button8.setEnabled(false);
                 button9.setEnabled(false);
+
                 displayWinner("player2");
+
+
             }
 
         } cnt++;
@@ -128,9 +157,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        public void mobilechooses () {
 
-        }
         public boolean isGameOver (ArrayList < Integer > player)
 
 
@@ -158,4 +185,5 @@ public class MainActivity extends AppCompatActivity {
             adb.create().show();
 
         }
+
     }
