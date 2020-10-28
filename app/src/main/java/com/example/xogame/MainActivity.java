@@ -186,4 +186,50 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+    public void reset(View view) {
+
+        Button button1=findViewById(R.id.btn1);
+        Button button2=findViewById(R.id.btn2);
+        Button button3=findViewById(R.id.btn3);
+        Button button4=findViewById(R.id.btn4);
+        Button button5=findViewById(R.id.btn5);
+        Button button6=findViewById(R.id.btn6);
+        Button button7=findViewById(R.id.btn7);
+        Button button8=findViewById(R.id.btn8);
+        Button button9=findViewById(R.id.btn9);
+        button1.setBackgroundResource(R.color.silver);
+        button2.setBackgroundResource(R.color.silver);
+        button3.setBackgroundResource(R.color.silver);
+        button4.setBackgroundResource(R.color.silver);
+        button5.setBackgroundResource(R.color.silver);
+        button6.setBackgroundResource(R.color.silver);
+        button7.setBackgroundResource(R.color.silver);
+        button8.setBackgroundResource(R.color.silver);
+        button9.setBackgroundResource(R.color.silver);
+        button1.setText("");
+
+        button2.setText("");
+        button3.setText("");
+        button4.setText("");
+        button5.setText("");
+        button6.setText("");
+        button7.setText("");
+        button8.setText("");
+        button9.setText("");
+        button1.setEnabled(true);
+        button2.setEnabled(true);
+        button3.setEnabled(true);
+        button4.setEnabled(true);
+        button5.setEnabled(true);
+        button6.setEnabled(true);
+        button7.setEnabled(true);
+        button8.setEnabled(true);
+        button9.setEnabled(true);
+
+        player1.clear();
+        player2.clear();
+
+
+
     }
+}
